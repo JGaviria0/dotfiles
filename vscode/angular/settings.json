@@ -1,0 +1,12 @@
+{
+    "material-icon-theme.activeIconPack": "angular_ngrx",
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#3C4F76",
+      "activityBar.foreground": "#AB9F9D",
+      "activityBar.inactiveForeground": "#DDDBF1",
+      "activityBar.activeBorder": "#AB9F9D",
+      "activityBarBadge.background": "#383F51",
+      "activityBar.border": "#000000"
+    }
+  }
+  

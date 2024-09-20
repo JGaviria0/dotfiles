@@ -1,0 +1,8 @@
+{
+    "material-icon-theme.activeIconPack": "nest",
+    "explorer.fileNesting.expand": false,
+    "material-icon-theme.files.associations": {
+        "*.service.ts": "Nest-controller",
+        "*.controller.ts": "Nest-service"
+    }
+}

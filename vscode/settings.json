@@ -1,0 +1,119 @@
+{
+    "window.zoomLevel": 3,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.env.linux": {},
+    "console-ninja.featureSet": "Community",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "cpp": false,
+        "python": false
+    },
+    // "terminal.integrated.enableMultiLinePasteWarning": false,
+    "[html]": {
+        "editor.defaultFormatter": "mohd-akram.vscode-html-format"
+    },
+    "[cpp]": {
+        "editor.formatOnSave": false
+    },
+    "cmake.showOptionsMovedNotification": false,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.formatOnSave"
+    ],
+    "breadcrumbs.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "window.customTitleBarVisibility": "auto",
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "codesandbox.currentWorkspace": "afbb5444-87e1-4544-96ec-1aa00b29f77a",
+    "remote.SSH.remotePlatform": {
+        "branch.rswjrl.Backbone-UTP.BackBoneUTPWeb.main.csb": "linux",
+        "branch.gg4rqs.Backbone-UTP.BackBoneUTPWeb.draft---thirsty-solomon.csb": "linux"
+    },
+    "eslint.codeActionsOnSave.rules": null,
+    "eslint.execArgv": null,
+    "eslint.lintTask.enable": true,
+    "eslint.notebooks.rules.customizations": [],
+    "eslint.workingDirectories": [],
+    "eslint.trace.server": "off",
+    "[typescript]": {
+        // "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "yaml.schemas": {
+        "file:///home/jgaviria0/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.jqlList": [
+        {
+            "id": "a1818637-2ffd-4fe9-8419-4e225d8df048",
+            "enabled": true,
+            "name": "My selaski Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "3cea3752-0596-4976-94d9-a5843833c86f",
+            "monitor": true
+        }
+    ],
+    "prisma.showPrismaDataPlatformNotification": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "editor.formatOnSave": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.requireConfig": true,
+    "prettier.ignorePath": ".gitignore *.cpp",
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "3cea3752-0596-4976-94d9-a5843833c86f",
+        "projectKey": "SELASKI"
+    },
+
+    "material-icon-theme.activeIconPack": "nest",
+    "material-icon-theme.hidesExplorerArrows": true,
+
+    "material-icon-theme.files.associations": {
+        "*.dto.ts": "Roadmap",
+        "*.entity.ts": "Mjml",
+        "config.ts": "Console",
+        "main.ts": "Makefile"
+    },
+
+    "material-icon-theme.folders.associations": {
+        "dto": "Interface",
+        "entities": "Mjml",
+        "containers": "",
+        "auth": "",
+        "services": "Connection",
+        "inserts": "Include",
+        "querys": "Database",
+        "updates": "Mock"
+    },
+    
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "*.controller.ts": "$(capture).controller.spec.ts",
+        "*.service.ts": "$(capture).service.spec.ts",
+        "*.guard.ts": "$(capture).guard.spec.ts",
+        "package.json": "*.code-workspace, .browserslist*, .circleci*, .commitlint*, .cz-config.js, .czrc, .dlint.json, .dprint.json*, .editorconfig, .eslint*, .firebase*, .flowconfig, .github*, .gitlab*, .gitmojirc.json, .gitpod*, .huskyrc*, .jslint*, .knip.*, .lintstagedrc*, .markdownlint*, .node-version, .nodemon*, .npm*, .nvmrc, .pm2*, .pnp.*, .pnpm*, .prettier*, .pylintrc, .release-please*.json, .releaserc*, .ruff.toml, .sentry*, .simple-git-hooks*, .stackblitz*, .styleci*, .stylelint*, .tazerc*, .textlint*, .tool-versions, .travis*, .versionrc*, .vscode*, .watchman*, .xo-config*, .yamllint*, .yarnrc*, Procfile, apollo.config.*, appveyor*, azure-pipelines*, biome.json*, bower.json, build.config.*, bun.lockb, bunfig.toml, commitlint*, crowdin*, dangerfile*, dlint.json, dprint.json*, electron-builder.*, eslint*, firebase.json, grunt*, gulp*, jenkins*, knip.*, lerna*, lint-staged*, nest-cli.*, netlify*, nodemon*, npm-shrinkwrap.json, nx.*, package-lock.json, package.nls*.json, phpcs.xml, pm2.*, pnpm*, prettier*, pullapprove*, pyrightconfig.json, release-please*.json, release-tasks.sh, release.config.*, renovate*, rollup.config.*, rspack*, ruff.toml, simple-git-hooks*, sonar-project.properties, stylelint*, tslint*, tsup.config.*, turbo*, typedoc*, unlighthouse*, vercel*, vetur.config.*, webpack*, workspace.json, wrangler.toml, xo.config.*, yarn*, *.md, .gitignore, .env, generateModuleScript.txt, tsconfig.json",
+        "Dockerfile": "*.dockerfile, .devcontainer.*, .dockerignore, captain-definition, compose.*, docker-compose.*, dockerfile*"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "window.doubleClickIconToClose": true
+}
